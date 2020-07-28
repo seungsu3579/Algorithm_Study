@@ -1,10 +1,10 @@
-## 1주차 스터디
+# 1주차 스터디
 
 - python의 list 자료구조의 slicing은 O(n) 시간복잡도를 가짐.
 
 ---
 
-### Hash
+## Hash
 
 - 해쉬(Hash): 임의 Key값을 고정 길이로 변환하는 것
 - 해쉬 테이블(Hash Table): Key값의 연산을 통해 직접 메모리에 접근이 가능한 데이터 구조
@@ -14,9 +14,7 @@
 - _dictionary_ 자료구조
   - 파이썬의 내장된 자료구조인 dict는 해시 기반으로 동작하여 짧은 시간복잡도로 메모리에 대한 접근이 가능하다. 하지만 규모가 커지면 비효율적으로 동작하게 되므로 유의해서 사용하자.
 
----
-
-### stack, queue
+## stack, queue
 
 - 스택(Stack): LIFO(Last In First Out)에 따라 동작하는 자료구조
 - 큐(Queue): FIFO(First In First Out)에 따라 동작하는 자료구조
@@ -63,6 +61,6 @@
 
 ---
 
-#### <a href="https://programmers.co.kr/learn/courses/30/parts/12077">Hash 문제</a>
+### <a href="https://programmers.co.kr/learn/courses/30/parts/12077">Hash 문제</a>
 
-#### <a href="https://programmers.co.kr/learn/courses/30/parts/12081">Stack, Queue 문제</a>
+### <a href="https://programmers.co.kr/learn/courses/30/parts/12081">Stack, Queue 문제</a>

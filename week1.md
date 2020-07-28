@@ -2,6 +2,8 @@
 
 - python의 list 자료구조의 slicing은 O(n) 시간복잡도를 가짐.
 
+---
+
 ### Hash
 
 - 해쉬(Hash): 임의 Key값을 고정 길이로 변환하는 것
@@ -9,8 +11,10 @@
 - 해싱 함수(Hashing Function): Key에 대해 산술 연산을 이용해 데이터(Value) 위치를 찾을 수 있는 함수
 - Key를 해싱 함수로 연산해서, 해쉬 주소를 알아내고, 이를 기반으로 해쉬 테이블에서 해당 Key에 대한 데이터 위치를 일관성있게 알 수 있음
 
-- dictionary 자료구조
+- _dictionary_ 자료구조
   - 파이썬의 내장된 자료구조인 dict는 해시 기반으로 동작하여 짧은 시간복잡도로 메모리에 대한 접근이 가능하다. 하지만 규모가 커지면 비효율적으로 동작하게 되므로 유의해서 사용하자.
+
+---
 
 ### stack, queue
 
@@ -55,4 +59,10 @@
 
   - _Counter_ : 시퀀스 자료형의 데이터 요소 개수를 dictionary 형태로 변환하는 자료구조
 
-  - _namedtuple()_ : 데이터 구조체를 저장하는 자료구조 (C의 구조체와 유사)
+  - _namedtuple_ : 데이터 구조체를 저장하는 자료구조 (C의 구조체와 유사)
+
+---
+
+#### <a href="https://programmers.co.kr/learn/courses/30/parts/12077">Hash 문제</a>
+
+#### <a href="https://programmers.co.kr/learn/courses/30/parts/12081">Stack, Queue 문제</a>

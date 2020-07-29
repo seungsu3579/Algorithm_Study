@@ -1,8 +1,8 @@
-## 2주차 스터디
+# 2주차 스터디
 
----
+##
 
-## Heap
+### Heap
 
 - 우선순위큐(Priority Queue): 우선순위가 높은 원소부터 Out되는 큐
 - 힙(Heap): 우선순위큐를 위해 만들어진 자료구조로 완전이진트리구조를 띄며 수직 노드간의 정렬은 이뤄져있지만 수평 노드간의 정렬은 이뤄져 있지 않다.
@@ -20,9 +20,9 @@
   heapq.heappop(l) # Heap 자료구조에서 우선순위가 가장 높은 값을 pop
   ```
 
-## Sort
+##
 
-- 비교 기준에 따라 배열의 원소를 차례로 줄세우는 알고리즘, 다양한 알고리즘이 존재
+### Sort
 
 - 선택정렬(Selection sort) : O(N^2)
   가장 작은 값부터 선택해서 앞으로 옮기며 정렬.
@@ -51,6 +51,6 @@
 
 ---
 
-### <a href="https://programmers.co.kr/learn/courses/30/parts/12117">Heap 문제</a>
+#### <a href="https://programmers.co.kr/learn/courses/30/parts/12117">Heap 문제</a>
 
-### <a href="https://programmers.co.kr/learn/courses/30/parts/12198">Sort 문제</a>
+#### <a href="https://programmers.co.kr/learn/courses/30/parts/12198">Sort 문제</a>

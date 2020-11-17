@@ -8,6 +8,9 @@ def solution(operation):
     counter = 0
     for oper in operation:
         cmd, opt = oper.split(" ")
+        if counter == 0:
+            max_heap = []
+            min_heap = []
         if cmd == "I":
             counter += 1
             heapq.heappush(max_heap, (-int(opt), int(opt)))

@@ -13,7 +13,9 @@
 - <a href="./programmers/week1.md">1주차</a> : 2020-07-15 ~ 2020-07-22
 - <a href="./programmers/week2.md">2주차</a> : 2020-07-23 ~ 2020-07-29
 - <a href="./programmers/week3.md">3주차</a> : 2020-07-30 ~ 2020-08-05
-- <a href="./programmers/week4.md">3주차</a> : 2020-08-06 ~ 2020-08-12
-- <a href="./programmers/week5.md">3주차</a> : 2020-08-13 ~ 2020-08-19
+- <a href="./programmers/week4.md">4주차</a> : 2020-08-06 ~ 2020-08-12
+- <a href="./programmers/week5.md">5주차</a> : 2020-08-13 ~ 2020-08-19
 
 ### 2021 겨울방학
+
+- <a href="./programmers/winter_week1.md">1주차></a> : 2021-01-02 ~ 2020-01-09

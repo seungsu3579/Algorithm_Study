@@ -4,13 +4,13 @@
 
 ### Q1. Greedy 조이스틱
 
-<p>[풀이](./greedy/조이스틱.py)</p>
+<p>[풀이](https://github.com/seungsu3579/Algorithm_Study/tree/master/programmers/greedy/조이스틱.py)</p>
 
 ---
 
 ### Q2. Greedy 단속카메라
 
-<p>[풀이](./greedy/단속카메라.py)</p>
+<p>[풀이](https://github.com/seungsu3579/Algorithm_Study/tree/master/programmers/greedy/단속카메라.py)</p>
 
 ---
 

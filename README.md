@@ -18,4 +18,4 @@
 
 ### 2021 겨울방학
 
-- <a href="./programmers/winter_week1.md">1주차></a> : 2021-01-02 ~ 2020-01-09
+- <a href="./programmers/winter_week1.md">1주차</a> : 2021-01-02 ~ 2020-01-09

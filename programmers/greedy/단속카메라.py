@@ -94,5 +94,37 @@ def solution2(routes):
     return answer
 
 
+def solution3(routes):
+    answer = 0
+    s_routes = sorted(routes, reverse=True, key=lambda x: x[0])
+
+    while True:
+        eptr = s_routes[-1][1]
+
+        if len(s_routes) == 1:
+            answer += 1
+            s_routes.pop()
+        else:
+            done = False
+            for i in range(len(s_routes) - 2, -1, -1):
+                if s_routes[i][0] > eptr:
+                    answer += 1
+                    s_routes = s_routes[: i + 1]
+                    done = True
+                    break
+                else:
+                    if s_routes[i][1] < eptr:
+                        eptr = s_routes[i][1]
+
+            if not done:
+                answer += 1
+                break
+
+        if len(s_routes) == 0:
+            break
+
+    return answer
+
+
 if __name__ == "__main__":
-    print(f"solution = {solution2([[-20,15], [-14,-5], [-18,-13], [-5,-3]])}")
+    print(f"solution = {solution3([[-20,15], [-14,-5], [-18,-13], [-5,-3]])}")

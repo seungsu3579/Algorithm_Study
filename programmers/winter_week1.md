@@ -24,3 +24,11 @@
 
 - solution2-2 : 트래픽을 기록하는 과정에서 좀 더 개선<br>
   <img src="./img/단속카메라_s22.png" height="200">
+
+### Q3. Dynamic Programming 정수삼각형
+
+[풀이](https://github.com/seungsu3579/Algorithm_Study/blob/master/programmers/dynamic_programming/정수삼각형.py)
+
+---
+
+backtracking을 활용하여 문제를 품. 작은 삼각형에서의 최대인 루트는 최적의 루트에 포함된다.

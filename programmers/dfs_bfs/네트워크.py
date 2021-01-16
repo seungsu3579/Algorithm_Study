@@ -20,6 +20,7 @@ def solution(n, computers):
     nodes = {i for i in range(n)}
 
     while True:
+
         if len(nodes) == 0:
             break
 

@@ -25,12 +25,10 @@
 
 ---
 
-### Q3. dfs-bfs 네트워크
+### Q3. binary_search 징검다리
 
-[풀이](https://github.com/seungsu3579/Algorithm_Study/blob/master/programmers/dfs_bfs/네트워크.py)
+[풀이](https://github.com/seungsu3579/Algorithm_Study/blob/master/programmers/binary_search/징검다리.py)
 
 ---
 
-bfs를 while 구문으로 구현하였고 해당 함수로 퍼져 나갈 수 있는 모든 computer들을 set자료구조로 저장해 전체 set에서 차집합을 통해 네트워크로 연결된 computer를 제거 O(n) + O(n). 모든 computer가 체크되면 클러스터 개수를 리턴하도록 함.
-
-set을 통해 더 빠르게 데이터를 제거할 수 있었음. set 관련 메서드의 시간복잡도를 좀더 탐색해보면 좋을 것 같다.
+- solution1 : 논리적인 접근이 잘못된듯 하다. 예외 케이스를 찾았지만 해결방법을 찾지는 못했다. 다른 방식의 접근이 필요해보인다. 길이가 10억까지 제시될 수 있는데 Q2에서 풀었던 방식과 비슷하게 접근하려했지만 쉽지 않았다...

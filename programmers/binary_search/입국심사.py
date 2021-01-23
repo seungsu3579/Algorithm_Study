@@ -1,9 +1,10 @@
 # 입국심사
 
-import heapq
-
 # O(klogn)
 # 이때 k = 1 billion, n = 100,000 ㅋㅋ 줄여보자 ;;
+import heapq
+
+
 def solution1(n, times):
     answer = 0
     times = list(map(lambda x: (x, x), times))
@@ -19,6 +20,43 @@ def solution1(n, times):
     return answer
 
 
+import sys
+
+
+def solution(n, times):
+    answer = 0
+    left = 0
+    right = sys.maxsize * sys.maxsize
+
+    while True:
+        person = 0
+        time = (left + right) // 2
+        for l in times:
+            person += time // l
+
+        if person >= n:
+            right = time - 1
+            answer = time
+        elif person < n:
+            left = time + 1
+
+        if left > right:
+            break
+
+    while True:
+        time -= 1
+        person = 0
+        for l in times:
+            person += time // l
+        if person >= n:
+            answer = time
+        else:
+            break
+
+    return answer
+
+
 if __name__ == "__main__":
     print(f"solution : {solution(6, [7, 10])} ; expected : 28")
+    # print(f"solution : {solution(10, [1, 5])} ; expected : ")
 

@@ -12,13 +12,14 @@
 
 ---
 
-### Q2. dynamic programming 등굣길
+### Q2. binary_search 입국심사
 
-[풀이](https://github.com/seungsu3579/Algorithm_Study/tree/master/programmers/dynamic_programming/등굣길.py)
+[풀이](https://github.com/seungsu3579/Algorithm_Study/tree/master/programmers/binary_search/입국심사.py)
 
-- solution1 : 격자판(n x m)에서 이뤄지길래 graph 형식으로 생각해서 bfs로 품. 하지만 시간 복잡도 측면에서 에러.
+- solution1 : 시간복잡도가 문제;; O(klogn)이지만 k가 1 billion, n이 100,000이다. 다시 작성할 필요가 있음.<br>
+  <img src="./img/입국심사_s1.png" height="200">
 
-- solution : 동적프로그래밍의 기본적인 방식으로 현재 타일으로 올수 있는 경로를 모두 더하는 방식으로 모든 타일을 계산. 시간 복잡도가 O(nm).
+- solution :
 
 처음 접근을 잘못했지만 간단히 풀 수 있는 문제였음.
 

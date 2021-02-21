@@ -1,3 +1,6 @@
+# 스킬트리
+
+
 def solution(skill, skill_trees):
     answer = 0
     stack = []

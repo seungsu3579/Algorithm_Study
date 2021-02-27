@@ -15,4 +15,3 @@ def possibleChanges(usernames):
         answer.append(flag)
 
     return answer
-

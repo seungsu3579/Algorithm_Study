@@ -23,7 +23,8 @@
 
 ### 3. String to Integer ([Link](https://leetcode.com/problems/string-to-integer-atoi/))
 
+문제 설명: atoi 함수 구현인데 string을 제거한 수를 32비트의 부호가 있는 정수로 변경해야한다.
 분류: string
 난이도: Medium
 풀이 링크: [Python](https://github.com/seungsu3579/Algorithm_Study/blob/master/leetcode/stringToInteger.py)
-한줄평:
+한줄평: 예외가 너무 많음... 귀찮..

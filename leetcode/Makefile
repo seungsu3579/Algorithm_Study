@@ -1,5 +1,5 @@
 test:
-	g++ -o test removeDuplicates.cpp
+	g++ -o test integerToRoman.cpp
 
 clean:
 	rm test

@@ -36,9 +36,8 @@ class Solution:
                         tmp_map[i][j] = tmp_map[i - 1][j]
                     else:
                         tmp_map[i][j] = tmp_map[i - 1][j] + tmp_map[i][j - 1]
-        from pprint import pprint
-
-        pprint(tmp_map)
+                else:
+                    tmp_map[i][j] = 0
 
         return tmp_map[-1][-1]
 
